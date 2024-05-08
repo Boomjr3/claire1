@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accueil.css">
+    <title>AUTHENTIFICATION</title>
+    <style>
+        body{
+            background-image: url("a\ \(42\).jpg");
+            background-size: cover;
+            color: rgb(126, 145, 239);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+           <center><h1>BIENVENUE DANS NOTRE SITE</h1></center> 
+        </div>
+ <div>
+    <center><h3> <a href="condition.html"> conditions de vente</a> </h3></center>
+</div>
+
+ </section>
+<div class="container"> 
+    <br>
+  <section>
+     <h2> FORMULAIRE</h2>
+    <form action="/action.jpg" method="post">
+        <input type="text" placeholder="votre nom et prenom ici" >
+        <br> <br>
+        <!-- input select-->
+        <label for="age">age</label>
+        <input type="number"id="age" min= "12" max="100" step="2">
+        <br> <br>
+        <label for="gender"> genre</label>
+        <select  id=" gender">
+            <option value="homme">homme</option>
+            <option value="femme">femme</option>
+        </select><br> <br>
+        <!--input radio-->
+        <div>
+            <input type="radio"name="type" id="human">
+            <label for="human">humain</label>
+        </div><br> <br>
+        <textarea  name="DEMANDE" cols="30" rows="10"placeholder= "nous vous ecoutons que desirez -vous"></textarea><br>
+        <!--input checkbox-->
+        <label > <input type="checkbox" />  bien lire nos conditions et valider</label>
+    </form>
+  </section>
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+    background-image:linear-gradient(rgba(36, 13, 13, 0),rgba(0,0,0,0.0)), url(2.JPG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;  
+    box-sizing: border-box;
+}
+.navbar .navlist ul{
+    display: flex;
+}
+.navbar .navlist ul li a{
+    margin: 10px;
+    color: black;
+}
+.navbar .logo{
+    font-size: 50px;
+    color: rgb(14, 118, 246);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar .navlist ul li a:hover{
+    margin: 10px;
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.navbar .logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
